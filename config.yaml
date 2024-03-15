@@ -37,3 +37,11 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+  - id: vapor-drago
+    name: vapor-drago
+    description: 'mine'
+    url: 'https://vapor-drago.fly.dev/mine/51'
+    method: GET
+    expectStatus: 200
+    linkable: true
+    
