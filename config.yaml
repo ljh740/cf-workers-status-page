@@ -24,15 +24,6 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: vapor-drago
-    name: vapor-drago
-    description: 'mine'
-    url: 'https://vapor-drago.fly.dev/mine/51'
-    method: GET
-    expectStatus: 200
-    linkable: true
-    
-
   - id: vapor-drago-self
     name: vapor-drago
     description: 'mine-self'
