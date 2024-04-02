@@ -32,3 +32,12 @@ monitors:
     expectStatus: 200
     linkable: true
     
+
+  - id: vapor-drago-self
+    name: vapor-drago
+    description: 'mine-self'
+    url: 'https://mine.darkedge.cn/mine/51'
+    method: GET
+    expectStatus: 200
+    linkable: true
+    
