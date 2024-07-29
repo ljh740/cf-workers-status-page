@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: vapor-drago-self
-    name: vapor-drago
+    name: vapor
     description: 'mine-self'
     url: 'https://mine.darkedge.cn/'
     method: GET
