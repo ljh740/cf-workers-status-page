@@ -15,15 +15,23 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+  # - id: workers-cloudflare-com # unique identifier
+  #   name: workers.cloudflare.com
+  #   description: 'You write code. They handle the rest.' # default=empty
+  #   url: 'https://workers.cloudflare.com/' # URL to fetch
+  #   method: GET # default=GET
+  #   expectStatus: 200 # operational status, default=200
+  #   followRedirect: false # should fetch follow redirects, default=false
+  #   linkable: false # allows the title to be a link, default=true
 
+  - id: vapor-drago-self-new
+    name: vapor-new
+    description: 'mine-self-new'
+    url: 'https://mine.ljh740.ggff.net/'
+    method: GET
+    expectStatus: 200
+    linkable: true
+    
   - id: vapor-drago-self
     name: vapor
     description: 'mine-self'
