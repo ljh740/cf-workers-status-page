@@ -23,7 +23,6 @@ monitors:
   #   expectStatus: 200 # operational status, default=200
   #   followRedirect: false # should fetch follow redirects, default=false
   #   linkable: false # allows the title to be a link, default=true
-
   - id: vapor-drago-self-new
     name: vapor-new
     description: 'mine-self-new'
